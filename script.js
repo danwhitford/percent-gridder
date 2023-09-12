@@ -23,7 +23,7 @@ document.getElementById('gen').addEventListener('click', function() {
   sideHeader.textContent = '0';
   row.appendChild(sideHeader);
 
-  for (let i = 0; i <= 100; i++) {
+  for (let i = 0; i <= 120; i++) {
     if (i > 0 && i % 10 === 0) {
       table.appendChild(row);
       row = document.createElement('tr');
